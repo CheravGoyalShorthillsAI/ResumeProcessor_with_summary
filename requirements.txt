@@ -12,3 +12,4 @@ llama-parse
 docxtpl
 python-docx
 streamlit
+openai
