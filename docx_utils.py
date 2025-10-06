@@ -1,10 +1,13 @@
 from docxtpl import DocxTemplate
+from pathlib import Path
 from io import BytesIO
 import os
 import re
 
 class DocxUtils:
-    TEMPLATE_PATH = "/home/shtlp_0046/Desktop/summary/Resume_Final_draft.docx"
+    BASE_DIR = Path(__file__).parent
+    TEMPLATE_PATH = BASE_DIR / "Resume_Final_draft.docx"
+    
     @staticmethod
     def _split_to_bullets(text):
         # Split text on full stops, including handling cases like “e.g.” or decimal points
