@@ -1,0 +1,14 @@
+google-generativeai
+python-dotenv
+argparse
+requests
+pathlib
+PyMuPDF
+opencv-python
+Pillow
+pdf2image
+pytesseract
+llama-parse
+docxtpl
+python-docx
+streamlit
